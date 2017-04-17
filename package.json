@@ -1,0 +1,33 @@
+{
+  "name": "snapberry",
+  "version": "1.0.0",
+  "description": "Help the blind hear the world",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack webpack.config.js && node ./server.js",
+    "start": "cd ./views && python -m SimpleHTTPServer 8000"
+  },
+  "keywords": [
+    "Snapchat",
+    "glass",
+    "Speaker",
+    "Raspberry",
+    "Pi"
+  ],
+  "author": "Hongyang Wang, hubertwang@cmu.edu",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.3.3",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "child_process": "^1.0.2",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "mongoose": "^4.9.4",
+    "raspicam": "^0.2.13",
+    "webpack": "^2.3.3"
+  }
+}
